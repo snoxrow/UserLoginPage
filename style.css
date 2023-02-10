@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400;700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -33,11 +35,13 @@ body {
 .header h1 {
   font-size: 40px;
   margin-bottom: 10px;
+  font-family: "Oswald", sans-serif;
 }
 .header p {
   color: grey;
   font-size: 18px;
   opacity: 0.7;
+  font-family: "Oswald", sans-serif;
 }
 .left-side {
   display: flex;
@@ -77,6 +81,7 @@ input[type="password"] {
   height: 55px;
   transition: background 0.5s;
   font-size: 18px;
+  font-family: "Oswald", sans-serif;
 }
 
 input[type="checkbox"] {
@@ -98,12 +103,16 @@ input[type="checkbox"] {
   padding: 0 5px;
   transform: translate(18px, 10px);
   font-size: 14px;
+  font-family: "Oswald", sans-serif;
 }
 
 .checkbox {
   display: flex;
   align-items: center;
   gap: 7px;
+}
+.checkbox label {
+  font-family: "Oswald", sans-serif;
 }
 .footer {
   display: flex;
@@ -122,6 +131,7 @@ a {
   align-items: center;
   text-decoration: none;
   gap: 7px;
+  font-family: "Oswald", sans-serif;
 }
 
 a:hover {
@@ -142,6 +152,7 @@ button {
   text-transform: uppercase;
   height: 55px;
   cursor: pointer;
+  font-family: "Oswald", sans-serif;
 }
 @media (max-width: 1050px) {
   .login-content {
