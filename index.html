@@ -7,6 +7,7 @@
     <title>Login Page</title>
 
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <div class="container">
@@ -18,14 +19,14 @@
         <div class="login">
           <div class="login-content">
             <div class="form-item">
-              <label class="userName-label" for="userName">Username</label
+              <label class="userName-label" for="userName">Email</label
               ><br />
-              <input class="userName" type="text" name="userName" /><br />
+              <input id="userName" type="text" name="userName" /><br />
             </div>
             <div class="form-item">
               <label class="password-label" for="password">Password</label
               ><br />
-              <input class="password" type="password" /><br />
+              <input id="password" type="password" /><br />
             </div>
             <div class="form-item2">
               <div class="checkbox">
@@ -33,7 +34,7 @@
                 <label for="rememberMe">Remember Me</label>
               </div>
             </div>
-            <button type="submit">Sign In</button>
+            <button id="submit" type="submit">Sign In</button>
           </div>
         </div>
 
@@ -59,5 +60,6 @@
         <img class="image" src="Images/13295527_5153829.jpg" />
       </div>
     </div>
+    <script src="JS.js"></script>
   </body>
 </html>
